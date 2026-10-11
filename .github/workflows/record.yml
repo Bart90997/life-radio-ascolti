@@ -1,0 +1,58 @@
+# =========================================================================
+# Li.Fe. Radio — Registrazione ascoltatori ogni ora
+# -------------------------------------------------------------------------
+# Questo workflow gira automaticamente ogni ora sui server di GitHub,
+# legge gli ascoltatori dalla radio e aggiorna data/listeners.json.
+# Poi salva (commit) il file nel repository, così il sito GitHub Pages
+# mostra sempre il grafico aggiornato.
+#
+# Non serve alcun browser aperto e non serve alcun server: GitHub fa tutto.
+# =========================================================================
+
+name: Registra ascoltatori
+
+on:
+  # Ogni ora al minuto 5 (l'orario dei cron di GitHub è in UTC).
+  # Lo script converte da solo nell'ora italiana (Europe/Rome).
+  schedule:
+    - cron: '5 * * * *'
+
+  # Permette di avviarlo a mano dalla scheda "Actions" (utile per test).
+  workflow_dispatch:
+
+# Serve il permesso di scrittura per poter salvare il file nel repo.
+permissions:
+  contents: write
+
+# Evita che due esecuzioni si sovrappongano.
+concurrency:
+  group: record-listeners
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Prepara Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Registra il campione di ascoltatori
+        run: node scripts/record.js
+
+      - name: Salva le modifiche nel repository
+        run: |
+          git config user.name "life-radio-bot"
+          git config user.email "life-radio-bot@users.noreply.github.com"
+          git add data/listeners.json
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica da salvare."
+          else
+            git commit -m "ascolti: campione $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

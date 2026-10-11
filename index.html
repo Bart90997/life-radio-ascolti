@@ -1,0 +1,587 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Li.Fe. Radio - Ascolti &amp; Metadati</title>
+    <link rel="icon" href="immagini/life.svg">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        :root {
+            --bg-dark: #012657;
+            --bg-panel: #0d1f3c;
+            --accent-celeste: #0185C7;
+            --accent-red: #FF2A54;
+            --white: #FFFFFF;
+            --green: #2ecc71;
+            --warning: #f1c40f;
+            --font-title: 'League Spartan', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-body);
+            background:
+                radial-gradient(circle at top left, rgba(1,133,199,0.22), transparent 34%),
+                radial-gradient(circle at bottom right, rgba(255,42,84,0.12), transparent 30%),
+                #060e1a;
+            color: var(--white);
+            min-height: 100vh;
+        }
+
+        .admin-header {
+            background: var(--bg-dark);
+            border-bottom: 3px solid var(--accent-celeste);
+            padding: 20px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+        }
+        .admin-header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .admin-header img { height: 50px; }
+        .admin-header h1 {
+            font-family: var(--font-title);
+            font-size: 1.4rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .admin-header h1 span { color: var(--accent-celeste); }
+        .admin-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.65);
+        }
+        .admin-status .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--green);
+            box-shadow: 0 0 0 6px rgba(46,204,113,0.12);
+        }
+        .admin-status.offline .dot {
+            background: var(--accent-red);
+            box-shadow: 0 0 0 6px rgba(255,42,84,0.12);
+        }
+
+        .admin-container {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 30px 24px 70px;
+        }
+
+        .hero {
+            margin-bottom: 24px;
+            padding: 26px;
+            border-radius: 22px;
+            background: linear-gradient(135deg, rgba(1,38,87,0.98), rgba(13,31,60,0.92));
+            border: 1.5px solid rgba(255,255,255,0.08);
+            overflow: hidden;
+            position: relative;
+        }
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: auto -90px -120px auto;
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            background: rgba(1,133,199,0.18);
+        }
+        .hero h2 {
+            font-family: var(--font-title);
+            font-size: clamp(2rem, 4vw, 4.2rem);
+            line-height: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        .hero h2 span { color: var(--accent-celeste); }
+        .hero p {
+            color: rgba(255,255,255,0.72);
+            max-width: 780px;
+            line-height: 1.55;
+            font-weight: 600;
+        }
+
+        .admin-section {
+            background: var(--bg-panel);
+            border: 1.5px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .admin-section-header {
+            background: rgba(1,133,199,0.08);
+            padding: 16px 24px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .admin-section-header i {
+            color: var(--accent-celeste);
+            font-size: 1.1rem;
+            width: 24px;
+            text-align: center;
+        }
+        .admin-section-header h2 {
+            font-family: var(--font-title);
+            font-size: 1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            flex: 1;
+        }
+        .admin-section-body { padding: 20px 24px; }
+
+        .grid-main {
+            display: grid;
+            grid-template-columns: minmax(280px, 0.9fr) minmax(320px, 1.25fr);
+            gap: 22px;
+            align-items: start;
+        }
+        @media (max-width: 900px) {
+            .grid-main { grid-template-columns: 1fr; }
+            .admin-header { padding: 16px; }
+            .admin-header h1 { font-size: 1.05rem; }
+        }
+
+        .admin-card {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 18px;
+            margin-bottom: 16px;
+        }
+        .admin-card:last-child { margin-bottom: 0; }
+        .admin-card-title {
+            font-family: var(--font-title);
+            font-size: 0.8rem;
+            font-weight: 800;
+            color: var(--accent-celeste);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .admin-card-title .card-num {
+            background: var(--accent-celeste);
+            color: var(--white);
+            width: 22px;
+            height: 22px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+        }
+
+        .now-card {
+            display: grid;
+            grid-template-columns: 112px 1fr;
+            gap: 18px;
+            align-items: center;
+        }
+        @media (max-width: 560px) { .now-card { grid-template-columns: 1fr; } }
+        .cover {
+            width: 112px;
+            height: 112px;
+            border-radius: 16px;
+            background: rgba(255,255,255,0.06);
+            border: 1.5px solid rgba(255,255,255,0.1);
+            object-fit: cover;
+            box-shadow: 0 18px 35px rgba(0,0,0,0.25);
+        }
+        .track-kicker {
+            color: rgba(255,255,255,0.45);
+            font-family: var(--font-title);
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 1.7px;
+            margin-bottom: 8px;
+        }
+        .track-title {
+            font-family: var(--font-title);
+            font-weight: 900;
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            line-height: 0.95;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .track-artist {
+            color: var(--accent-celeste);
+            font-weight: 900;
+            font-size: 1.05rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .meta-list {
+            display: grid;
+            gap: 10px;
+        }
+        .meta-item {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            border-bottom: 1px solid rgba(255,255,255,0.07);
+            padding-bottom: 10px;
+            color: rgba(255,255,255,0.75);
+            font-size: 0.92rem;
+        }
+        .meta-item:last-child { border-bottom: 0; padding-bottom: 0; }
+        .meta-item strong {
+            font-family: var(--font-title);
+            color: rgba(255,255,255,0.42);
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+            font-size: 0.7rem;
+            white-space: nowrap;
+        }
+        .history-list {
+            list-style: none;
+            display: grid;
+            gap: 10px;
+        }
+        .history-list li {
+            display: grid;
+            grid-template-columns: 38px 1fr;
+            gap: 10px;
+            align-items: center;
+            padding: 9px;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.035);
+            color: rgba(255,255,255,0.78);
+            font-weight: 700;
+            font-size: 0.88rem;
+        }
+        .history-list img {
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            object-fit: cover;
+            background: rgba(255,255,255,0.06);
+        }
+
+        /* ------------------- Ascoltatori ------------------- */
+        .listeners-hero {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .listeners-number {
+            font-family: var(--font-title);
+            font-weight: 900;
+            font-size: clamp(3.4rem, 9vw, 5.4rem);
+            line-height: 0.85;
+            color: var(--white);
+        }
+        .listeners-number span { color: var(--accent-celeste); }
+        .listeners-label {
+            font-family: var(--font-title);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.78rem;
+            color: rgba(255,255,255,0.5);
+            margin-bottom: 6px;
+        }
+        .listeners-sub { color: rgba(255,255,255,0.62); font-size: 0.86rem; font-weight: 600; }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-top: 18px;
+        }
+        @media (max-width: 560px) { .stats-grid { grid-template-columns: 1fr 1fr; } }
+        .stat-box {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: 12px;
+            padding: 14px;
+            text-align: center;
+        }
+        .stat-box .stat-value {
+            font-family: var(--font-title);
+            font-weight: 900;
+            font-size: 1.7rem;
+            color: var(--accent-celeste);
+            line-height: 1;
+        }
+        .stat-box .stat-name {
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+            color: rgba(255,255,255,0.45);
+            margin-top: 6px;
+            font-weight: 800;
+        }
+
+        .chart-toolbar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+        .chart-toolbar label {
+            font-family: var(--font-title);
+            font-size: 0.7rem;
+            font-weight: 800;
+            color: rgba(255,255,255,0.4);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .chart-toolbar input[type="date"],
+        .chart-toolbar select {
+            background: rgba(255,255,255,0.06);
+            border: 1.5px solid rgba(255,255,255,0.1);
+            border-radius: 8px;
+            color: var(--white);
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            padding: 9px 12px;
+            outline: none;
+        }
+        .chart-toolbar select option { color: #111; }
+        .chart-toolbar input[type="date"]:focus,
+        .chart-toolbar select:focus { border-color: var(--accent-celeste); }
+
+        .chart-wrap {
+            position: relative;
+            height: 340px;
+            width: 100%;
+        }
+        .chart-empty {
+            display: none;
+            text-align: center;
+            color: rgba(255,255,255,0.5);
+            padding: 40px 10px;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+        .chart-empty.show { display: block; }
+
+        .admin-btn-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .admin-btn {
+            padding: 11px 20px;
+            border: none;
+            border-radius: 10px;
+            font-family: var(--font-title);
+            font-weight: 900;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+            transition: transform 0.1s, box-shadow 0.1s, opacity 0.2s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .admin-btn:active { transform: translateY(1px); }
+        .admin-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+        .admin-btn-save {
+            background: var(--accent-celeste);
+            color: var(--white);
+            box-shadow: 0 4px 0px #015a8a;
+        }
+        .admin-btn-save:hover:not(:disabled) { box-shadow: 0 2px 0px #015a8a; transform: translateY(2px); }
+        .admin-btn-reset {
+            background: rgba(255,255,255,0.08);
+            color: rgba(255,255,255,0.72);
+            box-shadow: 0 4px 0px rgba(255,255,255,0.05);
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 999px;
+            background: rgba(255,255,255,0.05);
+            color: rgba(255,255,255,0.7);
+            padding: 8px 12px;
+            font-size: 0.8rem;
+            font-weight: 800;
+        }
+        .small-muted { color: rgba(255,255,255,0.48); font-size: 0.82rem; }
+        .info-note {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            background: rgba(1,133,199,0.1);
+            border: 1px solid rgba(1,133,199,0.3);
+            border-radius: 10px;
+            padding: 12px 14px;
+            margin-top: 14px;
+            color: rgba(255,255,255,0.78);
+            font-size: 0.86rem;
+            line-height: 1.5;
+        }
+        .info-note i { color: var(--accent-celeste); margin-top: 2px; }
+        .error-box {
+            display: none;
+            border: 1px solid rgba(255,42,84,0.35);
+            background: rgba(255,42,84,0.12);
+            color: #ffd9df;
+            border-radius: 10px;
+            padding: 12px 14px;
+            margin-top: 14px;
+            line-height: 1.45;
+            font-size: 0.9rem;
+        }
+        .error-box.show { display: block; }
+    </style>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <header class="admin-header">
+        <div class="admin-header-left">
+            <img src="immagini/life.svg" alt="Li.Fe. Radio" onerror="this.style.display='none'">
+            <h1>Ascolti <span>&amp; Metadati</span></h1>
+        </div>
+        <div class="admin-status" id="connectionStatus">
+            <span class="dot"></span>
+            <span id="connectionText">Pronto</span>
+        </div>
+    </header>
+
+    <main class="admin-container">
+        <section class="hero">
+            <h2>Ascolti radio <span>in tempo reale</span></h2>
+            <p>Questa pagina mostra il brano in onda e tiene traccia degli ascoltatori della diretta. Gli ascoltatori vengono registrati automaticamente <strong>una volta ogni ora</strong> da GitHub Actions (senza bisogno di tenere aperto alcun browser) e il grafico giornaliero mostra i valori ora per ora.</p>
+        </section>
+
+        <section class="grid-main">
+            <div>
+                <section class="admin-section">
+                    <div class="admin-section-header">
+                        <i class="fas fa-satellite-dish"></i>
+                        <h2>Brano in onda</h2>
+                        <span class="pill"><i class="fas fa-rotate"></i><span id="refreshLabel">--</span></span>
+                    </div>
+                    <div class="admin-section-body">
+                        <div class="admin-card now-card">
+                            <img class="cover" id="coverArt" alt="Copertina brano" src="">
+                            <div>
+                                <div class="track-kicker">Now playing</div>
+                                <div class="track-title" id="songTitle">In attesa...</div>
+                                <div class="track-artist" id="songArtist">Li.Fe. Radio</div>
+                            </div>
+                        </div>
+                        <div class="admin-card">
+                            <div class="admin-card-title"><span class="card-num"><i class="fas fa-circle-info"></i></span> Dati stream</div>
+                            <div class="meta-list">
+                                <div class="meta-item"><strong>Server</strong><span id="serverName">--</span></div>
+                                <div class="meta-item"><strong>Bitrate</strong><span id="bitrate">--</span></div>
+                                <div class="meta-item"><strong>Formato</strong><span id="format">--</span></div>
+                                <div class="meta-item"><strong>Ascoltatori live</strong><span id="connections">--</span></div>
+                                <div class="meta-item"><strong>Ultimo update</strong><span id="lastUpdate">--</span></div>
+                            </div>
+                        </div>
+                        <div class="admin-card">
+                            <div class="admin-card-title"><span class="card-num"><i class="fas fa-clock-rotate-left"></i></span> Ultimi passaggi</div>
+                            <ul class="history-list" id="historyList"></ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div>
+                <section class="admin-section">
+                    <div class="admin-section-header">
+                        <i class="fas fa-headphones"></i>
+                        <h2>Ascoltatori</h2>
+                        <span class="pill"><i class="fas fa-clock"></i><span id="lastRecordedLabel">--</span></span>
+                    </div>
+                    <div class="admin-section-body">
+                        <div class="admin-card">
+                            <div class="listeners-hero">
+                                <div>
+                                    <div class="listeners-label">In ascolto adesso</div>
+                                    <div class="listeners-number"><span id="liveListeners">--</span></div>
+                                    <div class="listeners-sub" id="liveListenersSub">Aggiornamento in corso...</div>
+                                </div>
+                            </div>
+                            <div class="stats-grid">
+                                <div class="stat-box">
+                                    <div class="stat-value" id="statPeak">--</div>
+                                    <div class="stat-name">Picco oggi</div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-value" id="statAvg">--</div>
+                                    <div class="stat-name">Media oggi</div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-value" id="statSamples">--</div>
+                                    <div class="stat-name">Rilevazioni</div>
+                                </div>
+                            </div>
+                            <div class="admin-btn-row" style="margin-top:18px;">
+                                <button class="admin-btn admin-btn-reset" id="refreshDataBtn"><i class="fas fa-rotate"></i> Aggiorna dati</button>
+                            </div>
+                            <div class="info-note">
+                                <i class="fas fa-circle-check"></i>
+                                <span>La registrazione oraria è automatica: GitHub salva un campione ogni ora nel repository. Non serve tenere aperta questa pagina.</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="admin-section">
+            <div class="admin-section-header">
+                <i class="fas fa-chart-column"></i>
+                <h2>Ascoltatori orari - grafico giornaliero</h2>
+            </div>
+            <div class="admin-section-body">
+                <div class="chart-toolbar">
+                    <label for="daySelect">Giorno</label>
+                    <select id="daySelect"></select>
+                    <label for="dayPicker" style="margin-left:6px;">Oppure scegli data</label>
+                    <input type="date" id="dayPicker">
+                    <span class="pill" id="demoBadge" style="display:none;border-color:rgba(241,196,15,0.4);background:rgba(241,196,15,0.12);color:#f1c40f;">
+                        <i class="fas fa-flask"></i> Dati dimostrativi
+                    </span>
+                </div>
+                <div class="chart-wrap">
+                    <canvas id="listenersChart"></canvas>
+                    <div class="chart-empty" id="chartEmpty">
+                        <i class="fas fa-chart-simple" style="font-size:2rem;color:rgba(255,255,255,0.25);display:block;margin-bottom:12px;"></i>
+                        Nessun dato registrato per questo giorno.<br>
+                        GitHub registra automaticamente gli ascoltatori ogni ora.
+                    </div>
+                </div>
+                <div class="small-muted" id="chartCaption" style="margin-top:14px;"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

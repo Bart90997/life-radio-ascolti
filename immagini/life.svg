@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Li.Fe. Radio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#012657"/>
+      <stop offset="1" stop-color="#0d1f3c"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0185C7"/>
+      <stop offset="1" stop-color="#3fb6ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="240" height="240" rx="52" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="86" fill="none" stroke="#0185C7" stroke-opacity="0.35" stroke-width="2"/>
+
+  <!-- onde sonore -->
+  <g fill="none" stroke="url(#wave)" stroke-width="9" stroke-linecap="round">
+    <path d="M60 120 q0 -26 0 -26" opacity="0.55"/>
+    <path d="M82 120 q0 -44 0 -44" opacity="0.8"/>
+    <path d="M104 120 q0 -62 0 -62"/>
+    <path d="M136 120 q0 -62 0 -62"/>
+    <path d="M158 120 q0 -44 0 -44" opacity="0.8"/>
+    <path d="M180 120 q0 -26 0 -26" opacity="0.55"/>
+  </g>
+  <g fill="none" stroke="url(#wave)" stroke-width="9" stroke-linecap="round">
+    <path d="M60 120 q0 26 0 26" opacity="0.55"/>
+    <path d="M82 120 q0 44 0 44" opacity="0.8"/>
+    <path d="M104 120 q0 62 0 62"/>
+    <path d="M136 120 q0 62 0 62"/>
+    <path d="M158 120 q0 44 0 44" opacity="0.8"/>
+    <path d="M180 120 q0 26 0 26" opacity="0.55"/>
+  </g>
+
+  <circle cx="120" cy="120" r="9" fill="#FFFFFF"/>
+</svg>
