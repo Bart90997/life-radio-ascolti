@@ -7,14 +7,20 @@
         "22": 1
       },
       "updatedAt": "2026-10-11T22:52:57+02:00"
+    },
+    "2026-10-12": {
+      "hours": {
+        "2": 0
+      },
+      "updatedAt": "2026-10-12T02:24:57+02:00"
     }
   },
   "last": {
-    "date": "2026-10-11",
-    "hour": 22,
-    "connections": 1,
-    "recordedAt": "2026-10-11T22:52:57+02:00",
-    "nowplaying": "ROMEO SANTOS, PRINCE ROYCE - Dardos",
+    "date": "2026-10-12",
+    "hour": 2,
+    "connections": 0,
+    "recordedAt": "2026-10-12T02:24:57+02:00",
+    "nowplaying": "U2 - One",
     "reason": "scheduled"
   },
   "demo": false
