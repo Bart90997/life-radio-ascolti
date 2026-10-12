@@ -11,17 +11,18 @@
     "2026-10-12": {
       "hours": {
         "2": 0,
-        "9": 1
+        "9": 1,
+        "16": 6
       },
-      "updatedAt": "2026-10-12T09:12:26+02:00"
+      "updatedAt": "2026-10-12T16:32:57+02:00"
     }
   },
   "last": {
     "date": "2026-10-12",
-    "hour": 9,
-    "connections": 1,
-    "recordedAt": "2026-10-12T09:12:26+02:00",
-    "nowplaying": "MADONNA - DANCETERIA",
+    "hour": 16,
+    "connections": 6,
+    "recordedAt": "2026-10-12T16:32:57+02:00",
+    "nowplaying": "BIAGIO ANTONACCI FT. SAYF - SPIRITUALé",
     "reason": "scheduled"
   },
   "demo": false
