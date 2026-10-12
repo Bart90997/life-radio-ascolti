@@ -10,17 +10,18 @@
     },
     "2026-10-12": {
       "hours": {
-        "2": 0
+        "2": 0,
+        "9": 1
       },
-      "updatedAt": "2026-10-12T02:24:57+02:00"
+      "updatedAt": "2026-10-12T09:12:26+02:00"
     }
   },
   "last": {
     "date": "2026-10-12",
-    "hour": 2,
-    "connections": 0,
-    "recordedAt": "2026-10-12T02:24:57+02:00",
-    "nowplaying": "U2 - One",
+    "hour": 9,
+    "connections": 1,
+    "recordedAt": "2026-10-12T09:12:26+02:00",
+    "nowplaying": "MADONNA - DANCETERIA",
     "reason": "scheduled"
   },
   "demo": false
