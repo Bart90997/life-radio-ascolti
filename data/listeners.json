@@ -12,17 +12,18 @@
       "hours": {
         "2": 0,
         "9": 1,
-        "16": 6
+        "16": 6,
+        "19": 2
       },
-      "updatedAt": "2026-10-12T16:32:57+02:00"
+      "updatedAt": "2026-10-12T19:42:29+02:00"
     }
   },
   "last": {
     "date": "2026-10-12",
-    "hour": 16,
-    "connections": 6,
-    "recordedAt": "2026-10-12T16:32:57+02:00",
-    "nowplaying": "BIAGIO ANTONACCI FT. SAYF - SPIRITUALé",
+    "hour": 19,
+    "connections": 2,
+    "recordedAt": "2026-10-12T19:42:29+02:00",
+    "nowplaying": "LOREDANA BERTè - Tequila E San Miguel",
     "reason": "scheduled"
   },
   "demo": false
