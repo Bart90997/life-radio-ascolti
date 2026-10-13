@@ -19,17 +19,18 @@
     },
     "2026-10-13": {
       "hours": {
-        "2": 1
+        "2": 1,
+        "9": 1
       },
-      "updatedAt": "2026-10-13T02:30:09+02:00"
+      "updatedAt": "2026-10-13T09:35:59+02:00"
     }
   },
   "last": {
     "date": "2026-10-13",
-    "hour": 2,
+    "hour": 9,
     "connections": 1,
-    "recordedAt": "2026-10-13T02:30:09+02:00",
-    "nowplaying": "NOEMI - Bianca",
+    "recordedAt": "2026-10-13T09:35:59+02:00",
+    "nowplaying": "J-AX - VITA MORTE MIRACOLI",
     "reason": "scheduled"
   },
   "demo": false
