@@ -21,17 +21,18 @@
       "hours": {
         "2": 1,
         "9": 1,
-        "17": 1
+        "17": 1,
+        "23": 1
       },
-      "updatedAt": "2026-10-13T17:50:26+02:00"
+      "updatedAt": "2026-10-13T23:08:38+02:00"
     }
   },
   "last": {
     "date": "2026-10-13",
-    "hour": 17,
+    "hour": 23,
     "connections": 1,
-    "recordedAt": "2026-10-13T17:50:26+02:00",
-    "nowplaying": "BIAGIO ANTONACCI FT. SAYF - SPIRITUALé",
+    "recordedAt": "2026-10-13T23:08:38+02:00",
+    "nowplaying": "MADONNA - Vogue",
     "reason": "scheduled"
   },
   "demo": false
