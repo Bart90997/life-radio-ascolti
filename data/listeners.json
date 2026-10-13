@@ -20,17 +20,18 @@
     "2026-10-13": {
       "hours": {
         "2": 1,
-        "9": 1
+        "9": 1,
+        "17": 1
       },
-      "updatedAt": "2026-10-13T09:35:59+02:00"
+      "updatedAt": "2026-10-13T17:50:26+02:00"
     }
   },
   "last": {
     "date": "2026-10-13",
-    "hour": 9,
+    "hour": 17,
     "connections": 1,
-    "recordedAt": "2026-10-13T09:35:59+02:00",
-    "nowplaying": "J-AX - VITA MORTE MIRACOLI",
+    "recordedAt": "2026-10-13T17:50:26+02:00",
+    "nowplaying": "BIAGIO ANTONACCI FT. SAYF - SPIRITUALé",
     "reason": "scheduled"
   },
   "demo": false
