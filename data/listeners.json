@@ -16,14 +16,20 @@
         "19": 2
       },
       "updatedAt": "2026-10-12T19:42:29+02:00"
+    },
+    "2026-10-13": {
+      "hours": {
+        "2": 1
+      },
+      "updatedAt": "2026-10-13T02:30:09+02:00"
     }
   },
   "last": {
-    "date": "2026-10-12",
-    "hour": 19,
-    "connections": 2,
-    "recordedAt": "2026-10-12T19:42:29+02:00",
-    "nowplaying": "LOREDANA BERTè - Tequila E San Miguel",
+    "date": "2026-10-13",
+    "hour": 2,
+    "connections": 1,
+    "recordedAt": "2026-10-13T02:30:09+02:00",
+    "nowplaying": "NOEMI - Bianca",
     "reason": "scheduled"
   },
   "demo": false
