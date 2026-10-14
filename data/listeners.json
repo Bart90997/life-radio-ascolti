@@ -29,17 +29,18 @@
     "2026-10-14": {
       "hours": {
         "3": 1,
-        "8": 1
+        "8": 1,
+        "13": 1
       },
-      "updatedAt": "2026-10-14T08:03:53+02:00"
+      "updatedAt": "2026-10-14T13:42:48+02:00"
     }
   },
   "last": {
     "date": "2026-10-14",
-    "hour": 8,
+    "hour": 13,
     "connections": 1,
-    "recordedAt": "2026-10-14T08:03:53+02:00",
-    "nowplaying": "SAMURAI JAY - ADRENALINA",
+    "recordedAt": "2026-10-14T13:42:48+02:00",
+    "nowplaying": "GUNS_N'ROSES - Knockin' On Heaven's Door",
     "reason": "scheduled"
   },
   "demo": false
