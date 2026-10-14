@@ -25,14 +25,20 @@
         "23": 1
       },
       "updatedAt": "2026-10-13T23:08:38+02:00"
+    },
+    "2026-10-14": {
+      "hours": {
+        "3": 1
+      },
+      "updatedAt": "2026-10-14T03:04:15+02:00"
     }
   },
   "last": {
-    "date": "2026-10-13",
-    "hour": 23,
+    "date": "2026-10-14",
+    "hour": 3,
     "connections": 1,
-    "recordedAt": "2026-10-13T23:08:38+02:00",
-    "nowplaying": "MADONNA - Vogue",
+    "recordedAt": "2026-10-14T03:04:15+02:00",
+    "nowplaying": "ALICE MERTON - No Roots",
     "reason": "scheduled"
   },
   "demo": false
