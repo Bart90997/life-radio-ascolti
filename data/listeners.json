@@ -45,14 +45,20 @@
         "20": 1
       },
       "updatedAt": "2026-10-15T21:00:00+02:00"
+    },
+    "2026-10-16": {
+      "hours": {
+        "0": 1
+      },
+      "updatedAt": "2026-10-16T00:06:20+02:00"
     }
   },
   "last": {
-    "date": "2026-10-15",
-    "hour": 20,
+    "date": "2026-10-16",
+    "hour": 0,
     "connections": 1,
-    "recordedAt": "2026-10-15T21:00:00+02:00",
-    "nowplaying": "CIOFFI, NOEMI - Farfalle (Nello Stomaco)",
+    "recordedAt": "2026-10-16T00:06:20+02:00",
+    "nowplaying": "MICHAEL JACKSON - Bad",
     "reason": "scheduled"
   },
   "demo": false
