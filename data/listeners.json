@@ -51,17 +51,18 @@
         "0": 1,
         "3": 1,
         "9": 1,
-        "14": 1
+        "14": 1,
+        "19": 1
       },
-      "updatedAt": "2026-10-16T14:14:49+02:00"
+      "updatedAt": "2026-10-16T19:18:30+02:00"
     }
   },
   "last": {
     "date": "2026-10-16",
-    "hour": 14,
+    "hour": 19,
     "connections": 1,
-    "recordedAt": "2026-10-16T14:14:49+02:00",
-    "nowplaying": "FABRI FIBRA - Pamplona",
+    "recordedAt": "2026-10-16T19:18:30+02:00",
+    "nowplaying": "KATY PERRY - Hot N Cold",
     "reason": "scheduled"
   },
   "demo": false
