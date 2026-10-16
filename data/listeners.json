@@ -52,17 +52,18 @@
         "3": 1,
         "9": 1,
         "14": 1,
-        "19": 1
+        "19": 1,
+        "22": 1
       },
-      "updatedAt": "2026-10-16T19:18:30+02:00"
+      "updatedAt": "2026-10-16T22:53:01+02:00"
     }
   },
   "last": {
     "date": "2026-10-16",
-    "hour": 19,
+    "hour": 22,
     "connections": 1,
-    "recordedAt": "2026-10-16T19:18:30+02:00",
-    "nowplaying": "KATY PERRY - Hot N Cold",
+    "recordedAt": "2026-10-16T22:53:01+02:00",
+    "nowplaying": "DONATELLA RETTORE - Splendido Splendente",
     "reason": "scheduled"
   },
   "demo": false
