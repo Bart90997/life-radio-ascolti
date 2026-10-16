@@ -48,17 +48,18 @@
     },
     "2026-10-16": {
       "hours": {
-        "0": 1
+        "0": 1,
+        "3": 1
       },
-      "updatedAt": "2026-10-16T00:06:20+02:00"
+      "updatedAt": "2026-10-16T03:08:55+02:00"
     }
   },
   "last": {
     "date": "2026-10-16",
-    "hour": 0,
+    "hour": 3,
     "connections": 1,
-    "recordedAt": "2026-10-16T00:06:20+02:00",
-    "nowplaying": "MICHAEL JACKSON - Bad",
+    "recordedAt": "2026-10-16T03:08:55+02:00",
+    "nowplaying": "MARRACASH FT. GUE' - CASINI",
     "reason": "scheduled"
   },
   "demo": false
