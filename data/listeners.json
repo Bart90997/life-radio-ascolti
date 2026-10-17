@@ -67,14 +67,20 @@
         "21": 1
       },
       "updatedAt": "2026-10-17T21:11:11+02:00"
+    },
+    "2026-10-18": {
+      "hours": {
+        "0": 1
+      },
+      "updatedAt": "2026-10-18T00:10:10+02:00"
     }
   },
   "last": {
-    "date": "2026-10-17",
-    "hour": 21,
+    "date": "2026-10-18",
+    "hour": 0,
     "connections": 1,
-    "recordedAt": "2026-10-17T21:11:11+02:00",
-    "nowplaying": "MADONNA - DANCETERIA",
+    "recordedAt": "2026-10-18T00:10:10+02:00",
+    "nowplaying": "NOTHING BUT THIEVES - A DIFFERENT KIND OF HAPPINESS - OFFICIAL AUDIO - NOTHING BUT THIEVES",
     "reason": "scheduled"
   },
   "demo": false
