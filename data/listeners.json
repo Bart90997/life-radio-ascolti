@@ -60,17 +60,18 @@
     "2026-10-17": {
       "hours": {
         "1": 0,
-        "6": 0
+        "6": 0,
+        "10": 1
       },
-      "updatedAt": "2026-10-17T06:04:35+02:00"
+      "updatedAt": "2026-10-17T10:30:37+02:00"
     }
   },
   "last": {
     "date": "2026-10-17",
-    "hour": 6,
-    "connections": 0,
-    "recordedAt": "2026-10-17T06:04:35+02:00",
-    "nowplaying": "BAD BUNNY-TOPIC - Nuevayol",
+    "hour": 10,
+    "connections": 1,
+    "recordedAt": "2026-10-17T10:30:37+02:00",
+    "nowplaying": "MICHAEL JACKSON - Billie Jean",
     "reason": "scheduled"
   },
   "demo": false
