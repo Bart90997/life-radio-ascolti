@@ -62,17 +62,18 @@
         "1": 0,
         "6": 0,
         "10": 1,
-        "14": 1
+        "14": 1,
+        "18": 1
       },
-      "updatedAt": "2026-10-17T14:53:38+02:00"
+      "updatedAt": "2026-10-17T18:17:52+02:00"
     }
   },
   "last": {
     "date": "2026-10-17",
-    "hour": 14,
+    "hour": 18,
     "connections": 1,
-    "recordedAt": "2026-10-17T14:53:38+02:00",
-    "nowplaying": "BNKR44 (FEAT. PINO D'ANGIò) - Ma Che Idea",
+    "recordedAt": "2026-10-17T18:17:52+02:00",
+    "nowplaying": "ERNIA - DEDICA",
     "reason": "scheduled"
   },
   "demo": false
