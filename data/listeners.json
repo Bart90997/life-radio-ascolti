@@ -61,17 +61,18 @@
       "hours": {
         "1": 0,
         "6": 0,
-        "10": 1
+        "10": 1,
+        "14": 1
       },
-      "updatedAt": "2026-10-17T10:30:37+02:00"
+      "updatedAt": "2026-10-17T14:53:38+02:00"
     }
   },
   "last": {
     "date": "2026-10-17",
-    "hour": 10,
+    "hour": 14,
     "connections": 1,
-    "recordedAt": "2026-10-17T10:30:37+02:00",
-    "nowplaying": "MICHAEL JACKSON - Billie Jean",
+    "recordedAt": "2026-10-17T14:53:38+02:00",
+    "nowplaying": "BNKR44 (FEAT. PINO D'ANGIò) - Ma Che Idea",
     "reason": "scheduled"
   },
   "demo": false
