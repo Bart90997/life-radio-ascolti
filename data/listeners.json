@@ -73,17 +73,18 @@
         "0": 1,
         "2": 1,
         "7": 1,
-        "12": 1
+        "12": 1,
+        "16": 1
       },
-      "updatedAt": "2026-10-18T12:50:35+02:00"
+      "updatedAt": "2026-10-18T16:27:13+02:00"
     }
   },
   "last": {
     "date": "2026-10-18",
-    "hour": 12,
+    "hour": 16,
     "connections": 1,
-    "recordedAt": "2026-10-18T12:50:35+02:00",
-    "nowplaying": "SAYF, BRESH - PARLAR DAMORE",
+    "recordedAt": "2026-10-18T16:27:13+02:00",
+    "nowplaying": "ANTONELLO VENDITTI - Notte Prima Degli Esami",
     "reason": "scheduled"
   },
   "demo": false
