@@ -71,17 +71,18 @@
     "2026-10-18": {
       "hours": {
         "0": 1,
-        "2": 1
+        "2": 1,
+        "7": 1
       },
-      "updatedAt": "2026-10-18T02:49:25+02:00"
+      "updatedAt": "2026-10-18T07:41:10+02:00"
     }
   },
   "last": {
     "date": "2026-10-18",
-    "hour": 2,
+    "hour": 7,
     "connections": 1,
-    "recordedAt": "2026-10-18T02:49:25+02:00",
-    "nowplaying": "THE NEIGHBOURHOOD. - Afraid",
+    "recordedAt": "2026-10-18T07:41:10+02:00",
+    "nowplaying": "THE NEIGHBOURHOOD. - Freaking Out",
     "reason": "scheduled"
   },
   "demo": false
