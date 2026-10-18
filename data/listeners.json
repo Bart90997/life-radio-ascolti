@@ -79,14 +79,20 @@
         "22": 1
       },
       "updatedAt": "2026-10-18T22:27:50+02:00"
+    },
+    "2026-10-19": {
+      "hours": {
+        "0": 1
+      },
+      "updatedAt": "2026-10-19T00:57:50+02:00"
     }
   },
   "last": {
-    "date": "2026-10-18",
-    "hour": 22,
+    "date": "2026-10-19",
+    "hour": 0,
     "connections": 1,
-    "recordedAt": "2026-10-18T22:27:50+02:00",
-    "nowplaying": "ANOTR - TALK TO YOU",
+    "recordedAt": "2026-10-19T00:57:50+02:00",
+    "nowplaying": "SHIVA,TIZIANO FERRO - Bacio Di Giuda",
     "reason": "scheduled"
   },
   "demo": false
