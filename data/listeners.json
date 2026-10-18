@@ -70,17 +70,18 @@
     },
     "2026-10-18": {
       "hours": {
-        "0": 1
+        "0": 1,
+        "2": 1
       },
-      "updatedAt": "2026-10-18T00:10:10+02:00"
+      "updatedAt": "2026-10-18T02:49:25+02:00"
     }
   },
   "last": {
     "date": "2026-10-18",
-    "hour": 0,
+    "hour": 2,
     "connections": 1,
-    "recordedAt": "2026-10-18T00:10:10+02:00",
-    "nowplaying": "NOTHING BUT THIEVES - A DIFFERENT KIND OF HAPPINESS - OFFICIAL AUDIO - NOTHING BUT THIEVES",
+    "recordedAt": "2026-10-18T02:49:25+02:00",
+    "nowplaying": "THE NEIGHBOURHOOD. - Afraid",
     "reason": "scheduled"
   },
   "demo": false
