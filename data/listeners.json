@@ -72,17 +72,18 @@
       "hours": {
         "0": 1,
         "2": 1,
-        "7": 1
+        "7": 1,
+        "12": 1
       },
-      "updatedAt": "2026-10-18T07:41:10+02:00"
+      "updatedAt": "2026-10-18T12:50:35+02:00"
     }
   },
   "last": {
     "date": "2026-10-18",
-    "hour": 7,
+    "hour": 12,
     "connections": 1,
-    "recordedAt": "2026-10-18T07:41:10+02:00",
-    "nowplaying": "THE NEIGHBOURHOOD. - Freaking Out",
+    "recordedAt": "2026-10-18T12:50:35+02:00",
+    "nowplaying": "SAYF, BRESH - PARLAR DAMORE",
     "reason": "scheduled"
   },
   "demo": false
