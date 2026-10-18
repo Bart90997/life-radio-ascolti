@@ -75,17 +75,18 @@
         "7": 1,
         "12": 1,
         "16": 1,
-        "19": 2
+        "19": 2,
+        "22": 1
       },
-      "updatedAt": "2026-10-18T19:59:09+02:00"
+      "updatedAt": "2026-10-18T22:27:50+02:00"
     }
   },
   "last": {
     "date": "2026-10-18",
-    "hour": 19,
-    "connections": 2,
-    "recordedAt": "2026-10-18T19:59:09+02:00",
-    "nowplaying": "OASIS - All Around The World",
+    "hour": 22,
+    "connections": 1,
+    "recordedAt": "2026-10-18T22:27:50+02:00",
+    "nowplaying": "ANOTR - TALK TO YOU",
     "reason": "scheduled"
   },
   "demo": false
