@@ -84,17 +84,18 @@
       "hours": {
         "0": 1,
         "3": 1,
-        "8": 1
+        "8": 1,
+        "14": 2
       },
-      "updatedAt": "2026-10-19T08:00:24+02:00"
+      "updatedAt": "2026-10-19T14:51:57+02:00"
     }
   },
   "last": {
     "date": "2026-10-19",
-    "hour": 8,
-    "connections": 1,
-    "recordedAt": "2026-10-19T08:00:24+02:00",
-    "nowplaying": "J-AX - HIPPY YA YO (PERÒ ANCHE NO)-J-AX",
+    "hour": 14,
+    "connections": 2,
+    "recordedAt": "2026-10-19T14:51:57+02:00",
+    "nowplaying": "SAYF, BRESH - PARLAR DAMORE",
     "reason": "scheduled"
   },
   "demo": false
