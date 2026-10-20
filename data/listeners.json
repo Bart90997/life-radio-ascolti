@@ -93,17 +93,18 @@
     "2026-10-20": {
       "hours": {
         "1": 1,
-        "6": 1
+        "6": 1,
+        "11": 1
       },
-      "updatedAt": "2026-10-20T06:32:03+02:00"
+      "updatedAt": "2026-10-20T11:56:07+02:00"
     }
   },
   "last": {
     "date": "2026-10-20",
-    "hour": 6,
+    "hour": 11,
     "connections": 1,
-    "recordedAt": "2026-10-20T06:32:03+02:00",
-    "nowplaying": "FRANCESCO RENGA - IL MEGLIO DI ME  (SANREMO 2026)",
+    "recordedAt": "2026-10-20T11:56:07+02:00",
+    "nowplaying": "OASIS - Wonderwall",
     "reason": "scheduled"
   },
   "demo": false
