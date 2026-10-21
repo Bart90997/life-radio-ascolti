@@ -105,17 +105,18 @@
         "1": 1,
         "6": 0,
         "11": 1,
-        "17": 0
+        "17": 0,
+        "21": 0
       },
-      "updatedAt": "2026-10-21T17:00:59+02:00"
+      "updatedAt": "2026-10-21T21:12:45+02:00"
     }
   },
   "last": {
     "date": "2026-10-21",
-    "hour": 17,
+    "hour": 21,
     "connections": 0,
-    "recordedAt": "2026-10-21T17:00:59+02:00",
-    "nowplaying": "CLOONEE, PROSPA, TRISTAN HENRY - GOOD GIRL",
+    "recordedAt": "2026-10-21T21:12:45+02:00",
+    "nowplaying": "SIENNA SPIRO - GREAT EXPECTATION",
     "reason": "scheduled"
   },
   "demo": false
