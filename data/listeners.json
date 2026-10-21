@@ -109,14 +109,20 @@
         "21": 0
       },
       "updatedAt": "2026-10-21T21:12:45+02:00"
+    },
+    "2026-10-22": {
+      "hours": {
+        "1": 0
+      },
+      "updatedAt": "2026-10-22T01:09:45+02:00"
     }
   },
   "last": {
-    "date": "2026-10-21",
-    "hour": 21,
+    "date": "2026-10-22",
+    "hour": 1,
     "connections": 0,
-    "recordedAt": "2026-10-21T21:12:45+02:00",
-    "nowplaying": "SIENNA SPIRO - GREAT EXPECTATION",
+    "recordedAt": "2026-10-22T01:09:45+02:00",
+    "nowplaying": "BEYONCÈ - Me, Myself And I",
     "reason": "scheduled"
   },
   "demo": false
