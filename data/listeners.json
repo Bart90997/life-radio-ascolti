@@ -103,17 +103,18 @@
     "2026-10-21": {
       "hours": {
         "1": 1,
-        "6": 0
+        "6": 0,
+        "11": 1
       },
-      "updatedAt": "2026-10-21T06:24:27+02:00"
+      "updatedAt": "2026-10-21T11:59:30+02:00"
     }
   },
   "last": {
     "date": "2026-10-21",
-    "hour": 6,
-    "connections": 0,
-    "recordedAt": "2026-10-21T06:24:27+02:00",
-    "nowplaying": "LED ZEPPELIN - Stairway To Heaven",
+    "hour": 11,
+    "connections": 1,
+    "recordedAt": "2026-10-21T11:59:30+02:00",
+    "nowplaying": "PINO DANIELE - A Me Me Piace O'blues",
     "reason": "scheduled"
   },
   "demo": false
