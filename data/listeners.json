@@ -119,14 +119,20 @@
         "21": 1
       },
       "updatedAt": "2026-10-22T21:07:59+02:00"
+    },
+    "2026-10-23": {
+      "hours": {
+        "1": 1
+      },
+      "updatedAt": "2026-10-23T01:11:04+02:00"
     }
   },
   "last": {
-    "date": "2026-10-22",
-    "hour": 21,
+    "date": "2026-10-23",
+    "hour": 1,
     "connections": 1,
-    "recordedAt": "2026-10-22T21:07:59+02:00",
-    "nowplaying": "ARISA - Potevi Fare Di Più",
+    "recordedAt": "2026-10-23T01:11:04+02:00",
+    "nowplaying": "MADONNA - DANCETERIA",
     "reason": "scheduled"
   },
   "demo": false
