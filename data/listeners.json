@@ -115,17 +115,18 @@
         "1": 0,
         "6": 1,
         "11": 0,
-        "17": 1
+        "17": 1,
+        "21": 1
       },
-      "updatedAt": "2026-10-22T17:00:22+02:00"
+      "updatedAt": "2026-10-22T21:07:59+02:00"
     }
   },
   "last": {
     "date": "2026-10-22",
-    "hour": 17,
+    "hour": 21,
     "connections": 1,
-    "recordedAt": "2026-10-22T17:00:22+02:00",
-    "nowplaying": "ANNA - HONEY",
+    "recordedAt": "2026-10-22T21:07:59+02:00",
+    "nowplaying": "ARISA - Potevi Fare Di Più",
     "reason": "scheduled"
   },
   "demo": false
