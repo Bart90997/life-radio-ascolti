@@ -114,17 +114,18 @@
       "hours": {
         "1": 0,
         "6": 1,
-        "11": 0
+        "11": 0,
+        "17": 1
       },
-      "updatedAt": "2026-10-22T11:59:48+02:00"
+      "updatedAt": "2026-10-22T17:00:22+02:00"
     }
   },
   "last": {
     "date": "2026-10-22",
-    "hour": 11,
-    "connections": 0,
-    "recordedAt": "2026-10-22T11:59:48+02:00",
-    "nowplaying": "GIANNA NANNINI - MERAVIGLIOSO ERRORE",
+    "hour": 17,
+    "connections": 1,
+    "recordedAt": "2026-10-22T17:00:22+02:00",
+    "nowplaying": "ANNA - HONEY",
     "reason": "scheduled"
   },
   "demo": false
