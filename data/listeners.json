@@ -113,17 +113,18 @@
     "2026-10-22": {
       "hours": {
         "1": 0,
-        "6": 1
+        "6": 1,
+        "11": 0
       },
-      "updatedAt": "2026-10-22T06:23:20+02:00"
+      "updatedAt": "2026-10-22T11:59:48+02:00"
     }
   },
   "last": {
     "date": "2026-10-22",
-    "hour": 6,
-    "connections": 1,
-    "recordedAt": "2026-10-22T06:23:20+02:00",
-    "nowplaying": "JANET JACKSON - Doesn't Really Matter",
+    "hour": 11,
+    "connections": 0,
+    "recordedAt": "2026-10-22T11:59:48+02:00",
+    "nowplaying": "GIANNA NANNINI - MERAVIGLIOSO ERRORE",
     "reason": "scheduled"
   },
   "demo": false
