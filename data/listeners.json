@@ -124,17 +124,18 @@
       "hours": {
         "1": 1,
         "6": 1,
-        "11": 2
+        "11": 2,
+        "16": 2
       },
-      "updatedAt": "2026-10-23T11:54:21+02:00"
+      "updatedAt": "2026-10-23T16:52:25+02:00"
     }
   },
   "last": {
     "date": "2026-10-23",
-    "hour": 11,
+    "hour": 16,
     "connections": 2,
-    "recordedAt": "2026-10-23T11:54:21+02:00",
-    "nowplaying": "ARISA - Mi Sento Bene",
+    "recordedAt": "2026-10-23T16:52:25+02:00",
+    "nowplaying": "SHIVA,TIZIANO FERRO - Bacio Di Giuda",
     "reason": "scheduled"
   },
   "demo": false
