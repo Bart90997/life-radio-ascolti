@@ -123,17 +123,18 @@
     "2026-10-23": {
       "hours": {
         "1": 1,
-        "6": 1
+        "6": 1,
+        "11": 2
       },
-      "updatedAt": "2026-10-23T06:27:56+02:00"
+      "updatedAt": "2026-10-23T11:54:21+02:00"
     }
   },
   "last": {
     "date": "2026-10-23",
-    "hour": 6,
-    "connections": 1,
-    "recordedAt": "2026-10-23T06:27:56+02:00",
-    "nowplaying": "SAYF, BRESH - PARLAR DAMORE",
+    "hour": 11,
+    "connections": 2,
+    "recordedAt": "2026-10-23T11:54:21+02:00",
+    "nowplaying": "ARISA - Mi Sento Bene",
     "reason": "scheduled"
   },
   "demo": false
