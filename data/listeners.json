@@ -125,17 +125,18 @@
         "1": 1,
         "6": 1,
         "11": 2,
-        "16": 2
+        "16": 2,
+        "21": 1
       },
-      "updatedAt": "2026-10-23T16:52:25+02:00"
+      "updatedAt": "2026-10-23T21:02:53+02:00"
     }
   },
   "last": {
     "date": "2026-10-23",
-    "hour": 16,
-    "connections": 2,
-    "recordedAt": "2026-10-23T16:52:25+02:00",
-    "nowplaying": "SHIVA,TIZIANO FERRO - Bacio Di Giuda",
+    "hour": 21,
+    "connections": 1,
+    "recordedAt": "2026-10-23T21:02:53+02:00",
+    "nowplaying": "LAURA PAUSINI - SIAMO SOLI NELLIMMENSO VUOTO CHE CÈ",
     "reason": "scheduled"
   },
   "demo": false
