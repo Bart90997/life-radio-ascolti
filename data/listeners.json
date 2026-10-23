@@ -129,14 +129,20 @@
         "21": 1
       },
       "updatedAt": "2026-10-23T21:02:53+02:00"
+    },
+    "2026-10-24": {
+      "hours": {
+        "0": 1
+      },
+      "updatedAt": "2026-10-24T00:00:51+02:00"
     }
   },
   "last": {
-    "date": "2026-10-23",
-    "hour": 21,
+    "date": "2026-10-24",
+    "hour": 0,
     "connections": 1,
-    "recordedAt": "2026-10-23T21:02:53+02:00",
-    "nowplaying": "LAURA PAUSINI - SIAMO SOLI NELLIMMENSO VUOTO CHE CÈ",
+    "recordedAt": "2026-10-24T00:00:51+02:00",
+    "nowplaying": "QUEEN - Radio Gaga",
     "reason": "scheduled"
   },
   "demo": false
