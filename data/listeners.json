@@ -122,17 +122,18 @@
     },
     "2026-10-23": {
       "hours": {
-        "1": 1
+        "1": 1,
+        "6": 1
       },
-      "updatedAt": "2026-10-23T01:11:04+02:00"
+      "updatedAt": "2026-10-23T06:27:56+02:00"
     }
   },
   "last": {
     "date": "2026-10-23",
-    "hour": 1,
+    "hour": 6,
     "connections": 1,
-    "recordedAt": "2026-10-23T01:11:04+02:00",
-    "nowplaying": "MADONNA - DANCETERIA",
+    "recordedAt": "2026-10-23T06:27:56+02:00",
+    "nowplaying": "SAYF, BRESH - PARLAR DAMORE",
     "reason": "scheduled"
   },
   "demo": false
