@@ -135,17 +135,18 @@
         "0": 1,
         "2": 1,
         "7": 1,
-        "12": 1
+        "12": 1,
+        "16": 1
       },
-      "updatedAt": "2026-10-24T12:44:35+02:00"
+      "updatedAt": "2026-10-24T16:24:49+02:00"
     }
   },
   "last": {
     "date": "2026-10-24",
-    "hour": 12,
+    "hour": 16,
     "connections": 1,
-    "recordedAt": "2026-10-24T12:44:35+02:00",
-    "nowplaying": "CHARLIE PUTH - We Don't Talk Anymore",
+    "recordedAt": "2026-10-24T16:24:49+02:00",
+    "nowplaying": "ROLLING STONES - MR CHARM",
     "reason": "scheduled"
   },
   "demo": false
