@@ -133,17 +133,18 @@
     "2026-10-24": {
       "hours": {
         "0": 1,
-        "2": 1
+        "2": 1,
+        "7": 1
       },
-      "updatedAt": "2026-10-24T02:27:22+02:00"
+      "updatedAt": "2026-10-24T07:37:54+02:00"
     }
   },
   "last": {
     "date": "2026-10-24",
-    "hour": 2,
+    "hour": 7,
     "connections": 1,
-    "recordedAt": "2026-10-24T02:27:22+02:00",
-    "nowplaying": "SIMPLY RED - If You Don't Know Me By Now",
+    "recordedAt": "2026-10-24T07:37:54+02:00",
+    "nowplaying": "SETTEMBRE - LENTIGGINI",
     "reason": "scheduled"
   },
   "demo": false
