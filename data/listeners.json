@@ -136,17 +136,18 @@
         "2": 1,
         "7": 1,
         "12": 1,
-        "16": 1
+        "16": 1,
+        "20": 1
       },
-      "updatedAt": "2026-10-24T16:24:49+02:00"
+      "updatedAt": "2026-10-24T20:01:33+02:00"
     }
   },
   "last": {
     "date": "2026-10-24",
-    "hour": 16,
+    "hour": 20,
     "connections": 1,
-    "recordedAt": "2026-10-24T16:24:49+02:00",
-    "nowplaying": "ROLLING STONES - MR CHARM",
+    "recordedAt": "2026-10-24T20:01:33+02:00",
+    "nowplaying": "LI.FE. RADIO - 20",
     "reason": "scheduled"
   },
   "demo": false
