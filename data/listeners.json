@@ -134,17 +134,18 @@
       "hours": {
         "0": 1,
         "2": 1,
-        "7": 1
+        "7": 1,
+        "12": 1
       },
-      "updatedAt": "2026-10-24T07:37:54+02:00"
+      "updatedAt": "2026-10-24T12:44:35+02:00"
     }
   },
   "last": {
     "date": "2026-10-24",
-    "hour": 7,
+    "hour": 12,
     "connections": 1,
-    "recordedAt": "2026-10-24T07:37:54+02:00",
-    "nowplaying": "SETTEMBRE - LENTIGGINI",
+    "recordedAt": "2026-10-24T12:44:35+02:00",
+    "nowplaying": "CHARLIE PUTH - We Don't Talk Anymore",
     "reason": "scheduled"
   },
   "demo": false
