@@ -132,17 +132,18 @@
     },
     "2026-10-24": {
       "hours": {
-        "0": 1
+        "0": 1,
+        "2": 1
       },
-      "updatedAt": "2026-10-24T00:00:51+02:00"
+      "updatedAt": "2026-10-24T02:27:22+02:00"
     }
   },
   "last": {
     "date": "2026-10-24",
-    "hour": 0,
+    "hour": 2,
     "connections": 1,
-    "recordedAt": "2026-10-24T00:00:51+02:00",
-    "nowplaying": "QUEEN - Radio Gaga",
+    "recordedAt": "2026-10-24T02:27:22+02:00",
+    "nowplaying": "SIMPLY RED - If You Don't Know Me By Now",
     "reason": "scheduled"
   },
   "demo": false
