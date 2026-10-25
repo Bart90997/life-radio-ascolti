@@ -148,17 +148,18 @@
         "2": 1,
         "6": 1,
         "12": 0,
-        "16": 0
+        "16": 0,
+        "19": 1
       },
-      "updatedAt": "2026-10-25T16:57:50+01:00"
+      "updatedAt": "2026-10-25T19:52:13+01:00"
     }
   },
   "last": {
     "date": "2026-10-25",
-    "hour": 16,
-    "connections": 0,
-    "recordedAt": "2026-10-25T16:57:50+01:00",
-    "nowplaying": "CYNDI LAUPER - Girls Just Want To Have Fun",
+    "hour": 19,
+    "connections": 1,
+    "recordedAt": "2026-10-25T19:52:13+01:00",
+    "nowplaying": "CHARLI XCX - CAMERA",
     "reason": "scheduled"
   },
   "demo": false
