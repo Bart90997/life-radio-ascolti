@@ -144,17 +144,18 @@
     },
     "2026-10-25": {
       "hours": {
-        "1": 1
+        "1": 1,
+        "2": 1
       },
-      "updatedAt": "2026-10-25T01:03:52+02:00"
+      "updatedAt": "2026-10-25T02:02:34+01:00"
     }
   },
   "last": {
     "date": "2026-10-25",
-    "hour": 1,
+    "hour": 2,
     "connections": 1,
-    "recordedAt": "2026-10-25T01:03:52+02:00",
-    "nowplaying": "GUNNA, Burna Boy - Wgft (Feat. Burna Boy)",
+    "recordedAt": "2026-10-25T02:02:34+01:00",
+    "nowplaying": "SERENA BRANCALE, DELIA, LEVANTE - Al Mio Paese",
     "reason": "scheduled"
   },
   "demo": false
