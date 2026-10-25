@@ -147,17 +147,18 @@
         "1": 1,
         "2": 1,
         "6": 1,
-        "12": 0
+        "12": 0,
+        "16": 0
       },
-      "updatedAt": "2026-10-25T12:10:04+01:00"
+      "updatedAt": "2026-10-25T16:57:50+01:00"
     }
   },
   "last": {
     "date": "2026-10-25",
-    "hour": 12,
+    "hour": 16,
     "connections": 0,
-    "recordedAt": "2026-10-25T12:10:04+01:00",
-    "nowplaying": "KATE BUSH - Running Up That Hill",
+    "recordedAt": "2026-10-25T16:57:50+01:00",
+    "nowplaying": "CYNDI LAUPER - Girls Just Want To Have Fun",
     "reason": "scheduled"
   },
   "demo": false
