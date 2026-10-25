@@ -146,17 +146,18 @@
       "hours": {
         "1": 1,
         "2": 1,
-        "6": 1
+        "6": 1,
+        "12": 0
       },
-      "updatedAt": "2026-10-25T06:56:23+01:00"
+      "updatedAt": "2026-10-25T12:10:04+01:00"
     }
   },
   "last": {
     "date": "2026-10-25",
-    "hour": 6,
-    "connections": 1,
-    "recordedAt": "2026-10-25T06:56:23+01:00",
-    "nowplaying": "ELODIE - Bagno A Mezzanotte",
+    "hour": 12,
+    "connections": 0,
+    "recordedAt": "2026-10-25T12:10:04+01:00",
+    "nowplaying": "KATE BUSH - Running Up That Hill",
     "reason": "scheduled"
   },
   "demo": false
