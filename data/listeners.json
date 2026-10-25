@@ -145,17 +145,18 @@
     "2026-10-25": {
       "hours": {
         "1": 1,
-        "2": 1
+        "2": 1,
+        "6": 1
       },
-      "updatedAt": "2026-10-25T02:02:34+01:00"
+      "updatedAt": "2026-10-25T06:56:23+01:00"
     }
   },
   "last": {
     "date": "2026-10-25",
-    "hour": 2,
+    "hour": 6,
     "connections": 1,
-    "recordedAt": "2026-10-25T02:02:34+01:00",
-    "nowplaying": "SERENA BRANCALE, DELIA, LEVANTE - Al Mio Paese",
+    "recordedAt": "2026-10-25T06:56:23+01:00",
+    "nowplaying": "ELODIE - Bagno A Mezzanotte",
     "reason": "scheduled"
   },
   "demo": false
