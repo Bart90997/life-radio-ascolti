@@ -158,17 +158,18 @@
       "hours": {
         "1": 1,
         "5": 1,
-        "11": 3
+        "11": 3,
+        "18": 2
       },
-      "updatedAt": "2026-10-26T11:56:29+01:00"
+      "updatedAt": "2026-10-26T18:15:18+01:00"
     }
   },
   "last": {
     "date": "2026-10-26",
-    "hour": 11,
-    "connections": 3,
-    "recordedAt": "2026-10-26T11:56:29+01:00",
-    "nowplaying": "STEVE LACY, SZA - is it cool",
+    "hour": 18,
+    "connections": 2,
+    "recordedAt": "2026-10-26T18:15:18+01:00",
+    "nowplaying": "TRAVIS SCOTT - Goosebumps",
     "reason": "scheduled"
   },
   "demo": false
