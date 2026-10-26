@@ -156,17 +156,18 @@
     },
     "2026-10-26": {
       "hours": {
-        "1": 1
+        "1": 1,
+        "5": 1
       },
-      "updatedAt": "2026-10-26T01:03:14+01:00"
+      "updatedAt": "2026-10-26T05:33:03+01:00"
     }
   },
   "last": {
     "date": "2026-10-26",
-    "hour": 1,
+    "hour": 5,
     "connections": 1,
-    "recordedAt": "2026-10-26T01:03:14+01:00",
-    "nowplaying": "ACHILLE LAURO - LA CITTÀ DEGLI ANGELI",
+    "recordedAt": "2026-10-26T05:33:03+01:00",
+    "nowplaying": "CESARE CREMONINI - PAPARAZZI",
     "reason": "scheduled"
   },
   "demo": false
