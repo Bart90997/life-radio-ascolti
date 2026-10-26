@@ -153,14 +153,20 @@
         "22": 1
       },
       "updatedAt": "2026-10-25T22:37:31+01:00"
+    },
+    "2026-10-26": {
+      "hours": {
+        "1": 1
+      },
+      "updatedAt": "2026-10-26T01:03:14+01:00"
     }
   },
   "last": {
-    "date": "2026-10-25",
-    "hour": 22,
+    "date": "2026-10-26",
+    "hour": 1,
     "connections": 1,
-    "recordedAt": "2026-10-25T22:37:31+01:00",
-    "nowplaying": "TATE MCRAE - HOUSEWIFE",
+    "recordedAt": "2026-10-26T01:03:14+01:00",
+    "nowplaying": "ACHILLE LAURO - LA CITTÀ DEGLI ANGELI",
     "reason": "scheduled"
   },
   "demo": false
