@@ -163,14 +163,20 @@
         "23": 1
       },
       "updatedAt": "2026-10-26T23:33:51+01:00"
+    },
+    "2026-10-27": {
+      "hours": {
+        "2": 1
+      },
+      "updatedAt": "2026-10-27T02:57:46+01:00"
     }
   },
   "last": {
-    "date": "2026-10-26",
-    "hour": 23,
+    "date": "2026-10-27",
+    "hour": 2,
     "connections": 1,
-    "recordedAt": "2026-10-26T23:33:51+01:00",
-    "nowplaying": "MILEY CIRUS - BASS PERSUADES",
+    "recordedAt": "2026-10-27T02:57:46+01:00",
+    "nowplaying": "FRANCESCO DE GREGORI - La Valigia Dell'attore",
     "reason": "scheduled"
   },
   "demo": false
