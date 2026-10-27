@@ -172,14 +172,20 @@
         "20": 1
       },
       "updatedAt": "2026-10-27T20:59:26+01:00"
+    },
+    "2026-10-28": {
+      "hours": {
+        "0": 1
+      },
+      "updatedAt": "2026-10-28T00:40:25+01:00"
     }
   },
   "last": {
-    "date": "2026-10-27",
-    "hour": 20,
+    "date": "2026-10-28",
+    "hour": 0,
     "connections": 1,
-    "recordedAt": "2026-10-27T20:59:26+01:00",
-    "nowplaying": "BRESH - Da Dio",
+    "recordedAt": "2026-10-28T00:40:25+01:00",
+    "nowplaying": "GIUSY FERRERI - Musica Classica",
     "reason": "scheduled"
   },
   "demo": false
