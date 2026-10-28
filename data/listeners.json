@@ -181,14 +181,20 @@
         "19": 1
       },
       "updatedAt": "2026-10-28T19:45:21+01:00"
+    },
+    "2026-10-29": {
+      "hours": {
+        "0": 1
+      },
+      "updatedAt": "2026-10-29T00:05:04+01:00"
     }
   },
   "last": {
-    "date": "2026-10-28",
-    "hour": 19,
+    "date": "2026-10-29",
+    "hour": 0,
     "connections": 1,
-    "recordedAt": "2026-10-28T19:45:21+01:00",
-    "nowplaying": "JOVANOTTI - Ragazza Magica",
+    "recordedAt": "2026-10-29T00:05:04+01:00",
+    "nowplaying": "BILLIE EILISH - Billie Bossa Nova",
     "reason": "scheduled"
   },
   "demo": false
