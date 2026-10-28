@@ -176,17 +176,18 @@
     "2026-10-28": {
       "hours": {
         "0": 1,
-        "6": 1
+        "6": 1,
+        "13": 1
       },
-      "updatedAt": "2026-10-28T06:18:26+01:00"
+      "updatedAt": "2026-10-28T13:36:45+01:00"
     }
   },
   "last": {
     "date": "2026-10-28",
-    "hour": 6,
+    "hour": 13,
     "connections": 1,
-    "recordedAt": "2026-10-28T06:18:26+01:00",
-    "nowplaying": "ULTIMO - TUTTO",
+    "recordedAt": "2026-10-28T13:36:45+01:00",
+    "nowplaying": "CESARE CREMONINI - PAPARAZZI",
     "reason": "scheduled"
   },
   "demo": false
