@@ -177,17 +177,18 @@
       "hours": {
         "0": 1,
         "6": 1,
-        "13": 1
+        "13": 1,
+        "19": 1
       },
-      "updatedAt": "2026-10-28T13:36:45+01:00"
+      "updatedAt": "2026-10-28T19:45:21+01:00"
     }
   },
   "last": {
     "date": "2026-10-28",
-    "hour": 13,
+    "hour": 19,
     "connections": 1,
-    "recordedAt": "2026-10-28T13:36:45+01:00",
-    "nowplaying": "CESARE CREMONINI - PAPARAZZI",
+    "recordedAt": "2026-10-28T19:45:21+01:00",
+    "nowplaying": "JOVANOTTI - Ragazza Magica",
     "reason": "scheduled"
   },
   "demo": false
