@@ -175,17 +175,18 @@
     },
     "2026-10-28": {
       "hours": {
-        "0": 1
+        "0": 1,
+        "6": 1
       },
-      "updatedAt": "2026-10-28T00:40:25+01:00"
+      "updatedAt": "2026-10-28T06:18:26+01:00"
     }
   },
   "last": {
     "date": "2026-10-28",
-    "hour": 0,
+    "hour": 6,
     "connections": 1,
-    "recordedAt": "2026-10-28T00:40:25+01:00",
-    "nowplaying": "GIUSY FERRERI - Musica Classica",
+    "recordedAt": "2026-10-28T06:18:26+01:00",
+    "nowplaying": "ULTIMO - TUTTO",
     "reason": "scheduled"
   },
   "demo": false
