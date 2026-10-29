@@ -185,17 +185,18 @@
     "2026-10-29": {
       "hours": {
         "0": 1,
-        "3": 1
+        "3": 1,
+        "10": 1
       },
-      "updatedAt": "2026-10-29T03:22:04+01:00"
+      "updatedAt": "2026-10-29T10:45:08+01:00"
     }
   },
   "last": {
     "date": "2026-10-29",
-    "hour": 3,
+    "hour": 10,
     "connections": 1,
-    "recordedAt": "2026-10-29T03:22:04+01:00",
-    "nowplaying": "CHARLI XCX - CAMERA",
+    "recordedAt": "2026-10-29T10:45:08+01:00",
+    "nowplaying": "TAYLOR SWIFT - Don't Blame Me",
     "reason": "scheduled"
   },
   "demo": false
