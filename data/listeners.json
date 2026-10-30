@@ -195,17 +195,18 @@
     "2026-10-30": {
       "hours": {
         "2": 1,
-        "9": 1
+        "9": 1,
+        "16": 1
       },
-      "updatedAt": "2026-10-30T09:27:55+01:00"
+      "updatedAt": "2026-10-30T16:46:47+01:00"
     }
   },
   "last": {
     "date": "2026-10-30",
-    "hour": 9,
+    "hour": 16,
     "connections": 1,
-    "recordedAt": "2026-10-30T09:27:55+01:00",
-    "nowplaying": "TOMMASO PARADISO - Agitare Coca Cola",
+    "recordedAt": "2026-10-30T16:46:47+01:00",
+    "nowplaying": "SETTEMBRE - LENTIGGINI",
     "reason": "scheduled"
   },
   "demo": false
