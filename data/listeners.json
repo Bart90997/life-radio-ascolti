@@ -203,17 +203,18 @@
     },
     "2026-10-31": {
       "hours": {
-        "1": 1
+        "1": 1,
+        "7": 1
       },
-      "updatedAt": "2026-10-31T01:37:24+01:00"
+      "updatedAt": "2026-10-31T07:52:09+01:00"
     }
   },
   "last": {
     "date": "2026-10-31",
-    "hour": 1,
+    "hour": 7,
     "connections": 1,
-    "recordedAt": "2026-10-31T01:37:24+01:00",
-    "nowplaying": "ABBA - MAMMA MIA",
+    "recordedAt": "2026-10-31T07:52:09+01:00",
+    "nowplaying": "JULI, TREDICI PIETRO - QUI PIANGONO TUTTI",
     "reason": "scheduled"
   },
   "demo": false
