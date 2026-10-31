@@ -206,17 +206,18 @@
         "1": 1,
         "7": 1,
         "14": 1,
-        "19": 1
+        "19": 1,
+        "23": 1
       },
-      "updatedAt": "2026-10-31T19:25:04+01:00"
+      "updatedAt": "2026-10-31T23:23:49+01:00"
     }
   },
   "last": {
     "date": "2026-10-31",
-    "hour": 19,
+    "hour": 23,
     "connections": 1,
-    "recordedAt": "2026-10-31T19:25:04+01:00",
-    "nowplaying": "STEVIE WONDER - Isn't She Lovely",
+    "recordedAt": "2026-10-31T23:23:49+01:00",
+    "nowplaying": "SPICE GIRLS - Wannabe",
     "reason": "scheduled"
   },
   "demo": false
