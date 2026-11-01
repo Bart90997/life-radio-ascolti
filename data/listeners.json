@@ -210,14 +210,20 @@
         "23": 1
       },
       "updatedAt": "2026-10-31T23:23:49+01:00"
+    },
+    "2026-11-01": {
+      "hours": {
+        "3": 1
+      },
+      "updatedAt": "2026-11-01T03:03:27+01:00"
     }
   },
   "last": {
-    "date": "2026-10-31",
-    "hour": 23,
+    "date": "2026-11-01",
+    "hour": 3,
     "connections": 1,
-    "recordedAt": "2026-10-31T23:23:49+01:00",
-    "nowplaying": "SPICE GIRLS - Wannabe",
+    "recordedAt": "2026-11-01T03:03:27+01:00",
+    "nowplaying": "LOLA YOUNG - Messy",
     "reason": "scheduled"
   },
   "demo": false
