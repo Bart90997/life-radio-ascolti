@@ -219,14 +219,20 @@
         "22": 2
       },
       "updatedAt": "2026-11-01T22:03:53+01:00"
+    },
+    "2026-11-02": {
+      "hours": {
+        "1": 2
+      },
+      "updatedAt": "2026-11-02T01:36:06+01:00"
     }
   },
   "last": {
-    "date": "2026-11-01",
-    "hour": 22,
+    "date": "2026-11-02",
+    "hour": 1,
     "connections": 2,
-    "recordedAt": "2026-11-01T22:03:53+01:00",
-    "nowplaying": "ANNALISA - Euforia",
+    "recordedAt": "2026-11-02T01:36:06+01:00",
+    "nowplaying": "GEOLIER FT. ACHILLE AURO - PER NOI",
     "reason": "scheduled"
   },
   "demo": false
