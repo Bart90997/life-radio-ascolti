@@ -227,14 +227,20 @@
         "19": 1
       },
       "updatedAt": "2026-11-02T19:09:12+01:00"
+    },
+    "2026-11-03": {
+      "hours": {
+        "2": 1
+      },
+      "updatedAt": "2026-11-03T02:30:16+01:00"
     }
   },
   "last": {
-    "date": "2026-11-02",
-    "hour": 19,
+    "date": "2026-11-03",
+    "hour": 2,
     "connections": 1,
-    "recordedAt": "2026-11-02T19:09:12+01:00",
-    "nowplaying": "LINKIN PARK - What Ive Done",
+    "recordedAt": "2026-11-03T02:30:16+01:00",
+    "nowplaying": "PURPLE DISCO MACHINE  MOSS KENA  THE KNOCKS - Fireworks (Feat. Moss Kena & The Knocks)",
     "reason": "scheduled"
   },
   "demo": false
