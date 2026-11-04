@@ -239,17 +239,18 @@
     "2026-11-04": {
       "hours": {
         "0": 1,
-        "6": 1
+        "6": 1,
+        "15": 2
       },
-      "updatedAt": "2026-11-04T06:56:26+01:00"
+      "updatedAt": "2026-11-04T15:15:42+01:00"
     }
   },
   "last": {
     "date": "2026-11-04",
-    "hour": 6,
-    "connections": 1,
-    "recordedAt": "2026-11-04T06:56:26+01:00",
-    "nowplaying": "AC/DC - Thunderstruck",
+    "hour": 15,
+    "connections": 2,
+    "recordedAt": "2026-11-04T15:15:42+01:00",
+    "nowplaying": "YUNG SNAPP,FREZZA,R3VERSAL,G.MINEIRO - DALE",
     "reason": "scheduled"
   },
   "demo": false
