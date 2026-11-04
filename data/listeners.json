@@ -240,17 +240,18 @@
       "hours": {
         "0": 1,
         "6": 1,
-        "15": 2
+        "15": 2,
+        "22": 0
       },
-      "updatedAt": "2026-11-04T15:15:42+01:00"
+      "updatedAt": "2026-11-04T22:13:06+01:00"
     }
   },
   "last": {
     "date": "2026-11-04",
-    "hour": 15,
-    "connections": 2,
-    "recordedAt": "2026-11-04T15:15:42+01:00",
-    "nowplaying": "YUNG SNAPP,FREZZA,R3VERSAL,G.MINEIRO - DALE",
+    "hour": 22,
+    "connections": 0,
+    "recordedAt": "2026-11-04T22:13:06+01:00",
+    "nowplaying": "SIENNA SPIRO - GREAT EXPECTATION",
     "reason": "scheduled"
   },
   "demo": false
