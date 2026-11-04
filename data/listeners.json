@@ -238,17 +238,18 @@
     },
     "2026-11-04": {
       "hours": {
-        "0": 1
+        "0": 1,
+        "6": 1
       },
-      "updatedAt": "2026-11-04T00:10:16+01:00"
+      "updatedAt": "2026-11-04T06:56:26+01:00"
     }
   },
   "last": {
     "date": "2026-11-04",
-    "hour": 0,
+    "hour": 6,
     "connections": 1,
-    "recordedAt": "2026-11-04T00:10:16+01:00",
-    "nowplaying": "BILLIE EILISH - Blue",
+    "recordedAt": "2026-11-04T06:56:26+01:00",
+    "nowplaying": "AC/DC - Thunderstruck",
     "reason": "scheduled"
   },
   "demo": false
