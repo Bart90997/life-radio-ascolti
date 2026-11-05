@@ -247,17 +247,18 @@
     },
     "2026-11-05": {
       "hours": {
-        "3": 0
+        "3": 0,
+        "11": 1
       },
-      "updatedAt": "2026-11-05T03:10:39+01:00"
+      "updatedAt": "2026-11-05T11:40:32+01:00"
     }
   },
   "last": {
     "date": "2026-11-05",
-    "hour": 3,
-    "connections": 0,
-    "recordedAt": "2026-11-05T03:10:39+01:00",
-    "nowplaying": "SIENNA SPIRO - GREAT EXPECTATION",
+    "hour": 11,
+    "connections": 1,
+    "recordedAt": "2026-11-05T11:40:32+01:00",
+    "nowplaying": "TRE ALLEGRI RAGAZZI MORTI - Piccolo Cinema Onirico",
     "reason": "scheduled"
   },
   "demo": false
