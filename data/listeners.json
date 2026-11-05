@@ -248,17 +248,18 @@
     "2026-11-05": {
       "hours": {
         "3": 0,
-        "11": 1
+        "11": 1,
+        "19": 1
       },
-      "updatedAt": "2026-11-05T11:40:32+01:00"
+      "updatedAt": "2026-11-05T19:38:55+01:00"
     }
   },
   "last": {
     "date": "2026-11-05",
-    "hour": 11,
+    "hour": 19,
     "connections": 1,
-    "recordedAt": "2026-11-05T11:40:32+01:00",
-    "nowplaying": "TRE ALLEGRI RAGAZZI MORTI - Piccolo Cinema Onirico",
+    "recordedAt": "2026-11-05T19:38:55+01:00",
+    "nowplaying": "taylor swift - Opalite",
     "reason": "scheduled"
   },
   "demo": false
