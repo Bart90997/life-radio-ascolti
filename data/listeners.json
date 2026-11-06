@@ -256,17 +256,18 @@
     "2026-11-06": {
       "hours": {
         "1": 1,
-        "7": 3
+        "7": 3,
+        "15": 2
       },
-      "updatedAt": "2026-11-06T07:22:31+01:00"
+      "updatedAt": "2026-11-06T15:55:33+01:00"
     }
   },
   "last": {
     "date": "2026-11-06",
-    "hour": 7,
-    "connections": 3,
-    "recordedAt": "2026-11-06T07:22:31+01:00",
-    "nowplaying": "SETTEMBRE - LENTIGGINI",
+    "hour": 15,
+    "connections": 2,
+    "recordedAt": "2026-11-06T15:55:33+01:00",
+    "nowplaying": "ARISA - MAGICA FAVOLA (SANREMO 2026)",
     "reason": "scheduled"
   },
   "demo": false
