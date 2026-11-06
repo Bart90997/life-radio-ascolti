@@ -255,17 +255,18 @@
     },
     "2026-11-06": {
       "hours": {
-        "1": 1
+        "1": 1,
+        "7": 3
       },
-      "updatedAt": "2026-11-06T01:01:55+01:00"
+      "updatedAt": "2026-11-06T07:22:31+01:00"
     }
   },
   "last": {
     "date": "2026-11-06",
-    "hour": 1,
-    "connections": 1,
-    "recordedAt": "2026-11-06T01:01:55+01:00",
-    "nowplaying": "JULI, BRESH - SERENAMENTE",
+    "hour": 7,
+    "connections": 3,
+    "recordedAt": "2026-11-06T07:22:31+01:00",
+    "nowplaying": "SETTEMBRE - LENTIGGINI",
     "reason": "scheduled"
   },
   "demo": false
