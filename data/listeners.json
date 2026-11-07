@@ -264,17 +264,18 @@
     },
     "2026-11-07": {
       "hours": {
-        "1": 1
+        "1": 1,
+        "7": 1
       },
-      "updatedAt": "2026-11-07T01:49:08+01:00"
+      "updatedAt": "2026-11-07T07:58:55+01:00"
     }
   },
   "last": {
     "date": "2026-11-07",
-    "hour": 1,
+    "hour": 7,
     "connections": 1,
-    "recordedAt": "2026-11-07T01:49:08+01:00",
-    "nowplaying": "SAYF, BRESH - PARLAR DAMORE",
+    "recordedAt": "2026-11-07T07:58:55+01:00",
+    "nowplaying": "NOEMI, CARL BRAVE - Makumba",
     "reason": "scheduled"
   },
   "demo": false
