@@ -266,17 +266,18 @@
       "hours": {
         "1": 1,
         "7": 1,
-        "14": 0
+        "14": 0,
+        "19": 0
       },
-      "updatedAt": "2026-11-07T14:52:01+01:00"
+      "updatedAt": "2026-11-07T19:37:42+01:00"
     }
   },
   "last": {
     "date": "2026-11-07",
-    "hour": 14,
+    "hour": 19,
     "connections": 0,
-    "recordedAt": "2026-11-07T14:52:01+01:00",
-    "nowplaying": "ROLLING STONES - In The Stars",
+    "recordedAt": "2026-11-07T19:37:42+01:00",
+    "nowplaying": "ROLLING STONES - MR CHARM",
     "reason": "scheduled"
   },
   "demo": false
