@@ -276,17 +276,18 @@
       "hours": {
         "3": 0,
         "11": 0,
-        "17": 0
+        "17": 0,
+        "22": 5
       },
-      "updatedAt": "2026-11-08T17:58:49+01:00"
+      "updatedAt": "2026-11-08T22:01:41+01:00"
     }
   },
   "last": {
     "date": "2026-11-08",
-    "hour": 17,
-    "connections": 0,
-    "recordedAt": "2026-11-08T17:58:49+01:00",
-    "nowplaying": "HAYLEY WILLIAMS - Parachute",
+    "hour": 22,
+    "connections": 5,
+    "recordedAt": "2026-11-08T22:01:41+01:00",
+    "nowplaying": "DITONELLAPIAGA - Hollywood",
     "reason": "scheduled"
   },
   "demo": false
