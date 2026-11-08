@@ -275,17 +275,18 @@
     "2026-11-08": {
       "hours": {
         "3": 0,
-        "11": 0
+        "11": 0,
+        "17": 0
       },
-      "updatedAt": "2026-11-08T11:07:37+01:00"
+      "updatedAt": "2026-11-08T17:58:49+01:00"
     }
   },
   "last": {
     "date": "2026-11-08",
-    "hour": 11,
+    "hour": 17,
     "connections": 0,
-    "recordedAt": "2026-11-08T11:07:37+01:00",
-    "nowplaying": "CHRISTINA AGUILERA - Beautiful",
+    "recordedAt": "2026-11-08T17:58:49+01:00",
+    "nowplaying": "HAYLEY WILLIAMS - Parachute",
     "reason": "scheduled"
   },
   "demo": false
