@@ -288,14 +288,20 @@
         "19": 1
       },
       "updatedAt": "2026-11-09T19:38:36+01:00"
+    },
+    "2026-11-10": {
+      "hours": {
+        "2": 1
+      },
+      "updatedAt": "2026-11-10T02:57:42+01:00"
     }
   },
   "last": {
-    "date": "2026-11-09",
-    "hour": 19,
+    "date": "2026-11-10",
+    "hour": 2,
     "connections": 1,
-    "recordedAt": "2026-11-09T19:38:36+01:00",
-    "nowplaying": "MAX PEZZALI - LE ALI",
+    "recordedAt": "2026-11-10T02:57:42+01:00",
+    "nowplaying": "JOVANOTTI - Bella",
     "reason": "scheduled"
   },
   "demo": false
