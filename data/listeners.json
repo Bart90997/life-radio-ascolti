@@ -296,14 +296,20 @@
         "18": 1
       },
       "updatedAt": "2026-11-10T18:38:13+01:00"
+    },
+    "2026-11-11": {
+      "hours": {
+        "0": 1
+      },
+      "updatedAt": "2026-11-11T00:07:05+01:00"
     }
   },
   "last": {
-    "date": "2026-11-10",
-    "hour": 18,
+    "date": "2026-11-11",
+    "hour": 0,
     "connections": 1,
-    "recordedAt": "2026-11-10T18:38:13+01:00",
-    "nowplaying": "ABBA - MAMMA MIA",
+    "recordedAt": "2026-11-11T00:07:05+01:00",
+    "nowplaying": "GLASS ANIMALS - Heat Waves",
     "reason": "scheduled"
   },
   "demo": false
