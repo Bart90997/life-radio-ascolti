@@ -327,16 +327,17 @@
       "hours": {
         "3": 1,
         "11": 1,
-        "17": 1
+        "17": 1,
+        "22": 1
       },
-      "updatedAt": "2026-11-14T17:31:33+01:00"
+      "updatedAt": "2026-11-14T22:16:47+01:00"
     }
   },
   "last": {
     "date": "2026-11-14",
-    "hour": 17,
+    "hour": 22,
     "connections": 1,
-    "recordedAt": "2026-11-14T17:31:33+01:00",
+    "recordedAt": "2026-11-14T22:16:47+01:00",
     "nowplaying": null,
     "reason": "scheduled"
   },
