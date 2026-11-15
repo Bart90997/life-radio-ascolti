@@ -334,16 +334,17 @@
     },
     "2026-11-15": {
       "hours": {
-        "2": 1
+        "2": 1,
+        "10": 1
       },
-      "updatedAt": "2026-11-15T02:42:51+01:00"
+      "updatedAt": "2026-11-15T10:07:46+01:00"
     }
   },
   "last": {
     "date": "2026-11-15",
-    "hour": 2,
+    "hour": 10,
     "connections": 1,
-    "recordedAt": "2026-11-15T02:42:51+01:00",
+    "recordedAt": "2026-11-15T10:07:46+01:00",
     "nowplaying": null,
     "reason": "scheduled"
   },
