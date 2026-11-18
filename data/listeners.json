@@ -359,16 +359,17 @@
     },
     "2026-11-18": {
       "hours": {
-        "4": 0
+        "4": 0,
+        "13": 1
       },
-      "updatedAt": "2026-11-18T04:34:26+01:00"
+      "updatedAt": "2026-11-18T13:54:22+01:00"
     }
   },
   "last": {
     "date": "2026-11-18",
-    "hour": 4,
-    "connections": 0,
-    "recordedAt": "2026-11-18T04:34:26+01:00",
+    "hour": 13,
+    "connections": 1,
+    "recordedAt": "2026-11-18T13:54:22+01:00",
     "nowplaying": "ELETTRA LAMBORGHINI - Bam Bam Bambina",
     "reason": "scheduled"
   },
