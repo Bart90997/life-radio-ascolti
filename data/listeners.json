@@ -375,16 +375,17 @@
     },
     "2026-11-20": {
       "hours": {
-        "3": 0
+        "3": 0,
+        "12": 1
       },
-      "updatedAt": "2026-11-20T03:57:16+01:00"
+      "updatedAt": "2026-11-20T12:15:05+01:00"
     }
   },
   "last": {
     "date": "2026-11-20",
-    "hour": 3,
-    "connections": 0,
-    "recordedAt": "2026-11-20T03:57:16+01:00",
+    "hour": 12,
+    "connections": 1,
+    "recordedAt": "2026-11-20T12:15:05+01:00",
     "nowplaying": "FLO RIDA FEAT. T-PAIN - Low",
     "reason": "scheduled"
   },
