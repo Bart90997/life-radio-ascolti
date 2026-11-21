@@ -383,17 +383,18 @@
     },
     "2026-11-21": {
       "hours": {
-        "2": 1
+        "2": 1,
+        "10": 1
       },
-      "updatedAt": "2026-11-21T02:19:18+01:00"
+      "updatedAt": "2026-11-21T10:32:19+01:00"
     }
   },
   "last": {
     "date": "2026-11-21",
-    "hour": 2,
+    "hour": 10,
     "connections": 1,
-    "recordedAt": "2026-11-21T02:19:18+01:00",
-    "nowplaying": "ENRICO NIGIOTTI - Mina Vagante",
+    "recordedAt": "2026-11-21T10:32:19+01:00",
+    "nowplaying": "JULI, TREDICI PIETRO - QUI PIANGONO TUTTI",
     "reason": "scheduled"
   },
   "demo": false
