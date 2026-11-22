@@ -389,14 +389,20 @@
         "23": 1
       },
       "updatedAt": "2026-11-21T23:59:58+01:00"
+    },
+    "2026-11-22": {
+      "hours": {
+        "3": 1
+      },
+      "updatedAt": "2026-11-22T03:56:53+01:00"
     }
   },
   "last": {
-    "date": "2026-11-21",
-    "hour": 23,
+    "date": "2026-11-22",
+    "hour": 3,
     "connections": 1,
-    "recordedAt": "2026-11-21T23:59:58+01:00",
-    "nowplaying": "GIANNA NANNINI, MARRACASH - America Inc.",
+    "recordedAt": "2026-11-22T03:56:53+01:00",
+    "nowplaying": "QUEEN - We Will Rock You",
     "reason": "scheduled"
   },
   "demo": false
