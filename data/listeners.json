@@ -401,17 +401,18 @@
     "2026-11-23": {
       "hours": {
         "1": 1,
-        "9": 0
+        "9": 0,
+        "22": 1
       },
-      "updatedAt": "2026-11-23T09:51:39+01:00"
+      "updatedAt": "2026-11-23T22:09:00+01:00"
     }
   },
   "last": {
     "date": "2026-11-23",
-    "hour": 9,
-    "connections": 0,
-    "recordedAt": "2026-11-23T09:51:39+01:00",
-    "nowplaying": "STEVE LACY, SZA - is it cool",
+    "hour": 22,
+    "connections": 1,
+    "recordedAt": "2026-11-23T22:09:00+01:00",
+    "nowplaying": "THE BEATLES - Help!",
     "reason": "scheduled"
   },
   "demo": false
