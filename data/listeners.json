@@ -397,14 +397,20 @@
         "19": 1
       },
       "updatedAt": "2026-11-22T19:23:39+01:00"
+    },
+    "2026-11-23": {
+      "hours": {
+        "1": 1
+      },
+      "updatedAt": "2026-11-23T01:08:23+01:00"
     }
   },
   "last": {
-    "date": "2026-11-22",
-    "hour": 19,
+    "date": "2026-11-23",
+    "hour": 1,
     "connections": 1,
-    "recordedAt": "2026-11-22T19:23:39+01:00",
-    "nowplaying": "CHARLI XCX - CAMERA",
+    "recordedAt": "2026-11-23T01:08:23+01:00",
+    "nowplaying": "BOB SINCLAR - WORLD HOLD ON (CHILDREN OF THE SKY)",
     "reason": "scheduled"
   },
   "demo": false
