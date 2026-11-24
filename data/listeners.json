@@ -408,17 +408,18 @@
     },
     "2026-11-24": {
       "hours": {
-        "6": 1
+        "6": 1,
+        "18": 2
       },
-      "updatedAt": "2026-11-24T06:52:16+01:00"
+      "updatedAt": "2026-11-24T18:26:33+01:00"
     }
   },
   "last": {
     "date": "2026-11-24",
-    "hour": 6,
-    "connections": 1,
-    "recordedAt": "2026-11-24T06:52:16+01:00",
-    "nowplaying": "VASCO ROSSI - Albachiara",
+    "hour": 18,
+    "connections": 2,
+    "recordedAt": "2026-11-24T18:26:33+01:00",
+    "nowplaying": "ORNELLA VANONI - Musica Musica",
     "reason": "scheduled"
   },
   "demo": false
