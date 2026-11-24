@@ -405,14 +405,20 @@
         "22": 1
       },
       "updatedAt": "2026-11-23T22:09:00+01:00"
+    },
+    "2026-11-24": {
+      "hours": {
+        "6": 1
+      },
+      "updatedAt": "2026-11-24T06:52:16+01:00"
     }
   },
   "last": {
-    "date": "2026-11-23",
-    "hour": 22,
+    "date": "2026-11-24",
+    "hour": 6,
     "connections": 1,
-    "recordedAt": "2026-11-23T22:09:00+01:00",
-    "nowplaying": "THE BEATLES - Help!",
+    "recordedAt": "2026-11-24T06:52:16+01:00",
+    "nowplaying": "VASCO ROSSI - Albachiara",
     "reason": "scheduled"
   },
   "demo": false
