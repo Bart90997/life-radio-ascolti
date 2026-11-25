@@ -412,14 +412,20 @@
         "18": 2
       },
       "updatedAt": "2026-11-24T18:26:33+01:00"
+    },
+    "2026-11-25": {
+      "hours": {
+        "3": 0
+      },
+      "updatedAt": "2026-11-25T03:12:00+01:00"
     }
   },
   "last": {
-    "date": "2026-11-24",
-    "hour": 18,
-    "connections": 2,
-    "recordedAt": "2026-11-24T18:26:33+01:00",
-    "nowplaying": "ORNELLA VANONI - Musica Musica",
+    "date": "2026-11-25",
+    "hour": 3,
+    "connections": 0,
+    "recordedAt": "2026-11-25T03:12:00+01:00",
+    "nowplaying": null,
     "reason": "scheduled"
   },
   "demo": false
