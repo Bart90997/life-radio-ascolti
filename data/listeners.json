@@ -416,17 +416,18 @@
     "2026-11-25": {
       "hours": {
         "3": 0,
-        "13": 2
+        "13": 2,
+        "23": 0
       },
-      "updatedAt": "2026-11-25T13:31:42+01:00"
+      "updatedAt": "2026-11-25T23:20:44+01:00"
     }
   },
   "last": {
     "date": "2026-11-25",
-    "hour": 13,
-    "connections": 2,
-    "recordedAt": "2026-11-25T13:31:42+01:00",
-    "nowplaying": "THASUP, TIZIANO FERRO - r()t()nda",
+    "hour": 23,
+    "connections": 0,
+    "recordedAt": "2026-11-25T23:20:44+01:00",
+    "nowplaying": "CHRIS DE SARANDY - WHAT A VIEW",
     "reason": "scheduled"
   },
   "demo": false
