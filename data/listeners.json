@@ -420,14 +420,20 @@
         "23": 0
       },
       "updatedAt": "2026-11-25T23:20:44+01:00"
+    },
+    "2026-11-26": {
+      "hours": {
+        "5": 0
+      },
+      "updatedAt": "2026-11-26T05:52:13+01:00"
     }
   },
   "last": {
-    "date": "2026-11-25",
-    "hour": 23,
+    "date": "2026-11-26",
+    "hour": 5,
     "connections": 0,
-    "recordedAt": "2026-11-25T23:20:44+01:00",
-    "nowplaying": "CHRIS DE SARANDY - WHAT A VIEW",
+    "recordedAt": "2026-11-26T05:52:13+01:00",
+    "nowplaying": "CHARLI XCX - CAMERA",
     "reason": "scheduled"
   },
   "demo": false
