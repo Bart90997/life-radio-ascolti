@@ -427,14 +427,20 @@
         "15": 1
       },
       "updatedAt": "2026-11-26T15:56:16+01:00"
+    },
+    "2026-11-27": {
+      "hours": {
+        "0": 1
+      },
+      "updatedAt": "2026-11-27T00:40:14+01:00"
     }
   },
   "last": {
-    "date": "2026-11-26",
-    "hour": 15,
+    "date": "2026-11-27",
+    "hour": 0,
     "connections": 1,
-    "recordedAt": "2026-11-26T15:56:16+01:00",
-    "nowplaying": "SAYF - BOMBE",
+    "recordedAt": "2026-11-27T00:40:14+01:00",
+    "nowplaying": "TANANAI - BUONANOTTE ANCHE STANOTTE",
     "reason": "scheduled"
   },
   "demo": false
