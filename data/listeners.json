@@ -430,17 +430,18 @@
     },
     "2026-11-27": {
       "hours": {
-        "0": 1
+        "0": 1,
+        "8": 2
       },
-      "updatedAt": "2026-11-27T00:40:14+01:00"
+      "updatedAt": "2026-11-27T08:58:19+01:00"
     }
   },
   "last": {
     "date": "2026-11-27",
-    "hour": 0,
-    "connections": 1,
-    "recordedAt": "2026-11-27T00:40:14+01:00",
-    "nowplaying": "TANANAI - BUONANOTTE ANCHE STANOTTE",
+    "hour": 8,
+    "connections": 2,
+    "recordedAt": "2026-11-27T08:58:19+01:00",
+    "nowplaying": "ACHILLE LAURO - Amor",
     "reason": "scheduled"
   },
   "demo": false
