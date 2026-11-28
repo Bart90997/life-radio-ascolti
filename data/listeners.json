@@ -438,16 +438,17 @@
     },
     "2026-11-28": {
       "hours": {
-        "2": 0
+        "2": 0,
+        "11": 0
       },
-      "updatedAt": "2026-11-28T02:22:16+01:00"
+      "updatedAt": "2026-11-28T11:07:32+01:00"
     }
   },
   "last": {
     "date": "2026-11-28",
-    "hour": 2,
+    "hour": 11,
     "connections": 0,
-    "recordedAt": "2026-11-28T02:22:16+01:00",
+    "recordedAt": "2026-11-28T11:07:32+01:00",
     "nowplaying": null,
     "reason": "scheduled"
   },
